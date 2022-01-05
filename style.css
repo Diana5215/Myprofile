@@ -1,0 +1,85 @@
+#banner {
+  background-image: url(https://images.unsplash.com/photo-1485498128961-422168ba5f87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80);
+  height: 350px;
+  background-size: cover;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  background-color: #a8dadc;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 25px;
+  text-align: center;
+  margin: 30px;
+  padding: 10px 20px;
+  width: 100%;
+  margin: 20px;
+  overflow: hidden;
+  cursor: default;
+  transition: all 400ms ease;
+}
+.card-white:hover {
+  box-shadow: 4px 6px 10px rgb(0 0 0 / 10%);
+  background-color: #e63946;
+  transform: translateY(-3%);
+}
+h1 {
+  font-family: fantasy;
+  text-align: center;
+}
+
+.card img {
+  width: 75%;
+  height: 210px;
+}
+card.container {
+  padding: 15px;
+  text-align: center;
+}
+.button {
+  background-color: #f1faee;
+  color: #457b9d;
+  display: inline-block;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px 0px;
+  text-align: center;
+  width: 200px;
+  text-decoration: none;
+  box-shadow: 0px 3px 0px #373c3c;
+}
+.button:hover {
+  background-color: #1d3557;
+  color: white;
+}
+.list-inline {
+  list-style: none;
+}
+.list-inline > li {
+  display: inline;
+  font-size: 40px;
+  margin: 15px;
+  color: #1d3557;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
